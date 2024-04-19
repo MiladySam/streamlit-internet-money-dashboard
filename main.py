@@ -6,7 +6,7 @@ from PIL import Image
 from urllib.request import urlopen
 
 st.title("Daily Price  Dashboard")
-st.header("HOLD PEPE AWRA !!!")
+
 
 
 # Définit les cryptomonnaies à suivre
