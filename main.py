@@ -8,9 +8,6 @@ from urllib.request import urlopen
 st.title("Daily Price")
 st.header("Dashboard")
 
-CURRENT_THEME = "Dark"
-IS_DARK_THEME = True
-EXPANDER_TEXT = ""
 
 # Définit les cryptomonnaies à suivre
 Bitcoin = "BTC-USD"
