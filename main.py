@@ -5,8 +5,8 @@ import datetime
 from PIL import Image
 from urllib.request import urlopen
 
-st.title("Daily Price Dashboard")
-
+st.title("Daily Price  Dashboard")
+st.header("HOLD PEPE AWRA !!!")
 
 
 # Définit les cryptomonnaies à suivre
@@ -21,7 +21,6 @@ celestia = "TIA22861-USD"
 BTC_data = yf.Ticker(Bitcoin)
 ETH_data = yf.Ticker(Ethereum)
 PEPE_data = yf.Ticker(pepecoin)
-
 DOGE_data = yf.Ticker(dogecoin)
 CELESTIA_data = yf.Ticker(celestia)
 
