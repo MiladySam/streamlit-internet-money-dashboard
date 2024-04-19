@@ -46,4 +46,6 @@ TAO = yf.download(bittensor, start="2024-04-01", end="2024-04-01")
 
 # Affiche les données de prix
 st.write("Bitcoin")
+imgBtc = Image.open(urlopen('https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png'))
+st.image(imgBtc, width=25)
 
